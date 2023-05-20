@@ -8,7 +8,7 @@ headers = {
     'Cookie':'kg_mid=299ea5533f5160fb2e16fbd30385be1b; kg_dfid=2mSkjw0E3dkQ460cB50YwQtz; kg_dfid_collect=d41d8cd98f00b204e9800998ecf8427e; Hm_lvt_aedee6983d4cfc62f509129360d6bb3d=1672361644; kg_mid_temp=299ea5533f5160fb2e16fbd30385be1b; Hm_lpvt_aedee6983d4cfc62f509129360d6bb3d=1672411679'
 }
 
- 
+
 # 音乐列表
 list_url = 'https://complexsearch.kugou.com/v2/search/song?callback=callback123&srcappid=2919&clientver=1000&clienttime=1672411679489&mid=299ea5533f5160fb2e16fbd30385be1b&uuid=299ea5533f5160fb2e16fbd30385be1b&dfid=2mSkjw0E3dkQ460cB50YwQtz&keyword=%E5%A4%A7%E9%B1%BC&page=1&pagesize=30&bitrate=0&isfuzzy=0&inputtype=0&platform=WebFilter&userid=0&iscorrection=1&privilege_filter=0&filter=10&token=&appid=1014&signature=885f33072bc842b1538c1d44312c4c1d'
 list_resp = requests.get(list_url,headers=headers)
