@@ -1,0 +1,6 @@
+[submodule "Python-programming-exercises"]
+	path = Python-programming-exercises
+	url = https://github.com/ADDICTOR/Python-programming-exercises.git
+[submodule "coding-problems"]
+	path = coding-problems
+	url = https://github.com/ADDICTOR/coding-problems.git
