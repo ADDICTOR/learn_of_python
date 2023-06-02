@@ -1,7 +1,7 @@
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.fftpack import fft,ifft
+from scipy.fft import fft,ifft
 
 x = np.linspace(0, 2*np.pi, 160)
 y1 = np.sin(x)
